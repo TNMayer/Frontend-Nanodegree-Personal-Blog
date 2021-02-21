@@ -2,5 +2,6 @@
 @import './mainHeader.css';
 @import './mainFooter.css';
 @import './mainGrid.css';
-@import './mainCard.css';
 @import './blogpostGrid.css';
+@import './blogpostContent.css';
+@import './blogpostAside.css';

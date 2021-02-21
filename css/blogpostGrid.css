@@ -30,17 +30,12 @@
 
 .blogpostContent {
     grid-area: blogpostContent;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
-    border: 1px dashed black;
 }
 
 .blogpostAside {
     grid-area: blogpostAside;
     font-weight: bold;
     height: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: flex-start;
