@@ -1,6 +1,8 @@
-# frontend_personal_blog
+# Udacity Frontend Web Developer Nanodegree
 
-## What is the repository for?
+## Project 1: Personal Blog
+
+### What is the repository for?
 
 Currently I am taking a Udacity Nanodegree Course in Frontend Web Development. As a part of the program one project is to develop an own personal Blog Site. 
 
