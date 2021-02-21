@@ -1,0 +1,29 @@
+.contentWrapper {
+    width: 80%;
+    margin: auto;
+    max-height: 100vh;
+}
+
+.contentGrid {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px auto 100px;
+    grid-template-areas: 
+        "header"
+        "mainContent"
+        "footer";
+}
+
+.mainContent{
+    grid-area: mainContent;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .contentWrapper {
+        width: 100%;
+    }
+}

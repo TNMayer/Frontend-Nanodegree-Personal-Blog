@@ -1,0 +1,32 @@
+.mainRow {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content;
+    grid-template-areas:
+        "mainColLeft mainColRight";
+}
+
+.mainColLeft {
+    grid-area: mainColLeft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainColRight {
+    grid-area: mainColRight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .mainRow {
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content;
+        grid-template-areas:
+            "mainColLeft"
+            "mainColRight";
+    }
+}
