@@ -1,0 +1,45 @@
+#socialarea {
+    width: 40px;
+    background-color: #2f3640;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#socialarea a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #f5f6fa;
+    font-size: 20px;
+    transition: .5s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+#socialarea a:hover {
+    background-color: #f5f6fa;  
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    #socialarea {
+        width: 180px;
+        height: 40px;
+        position: static;
+    }
+    #socialarea a {
+        display: inline-block;
+    }
+}
+
+#youtube:hover {
+    color: #FF0000;
+}
+#facebook:hover {
+    color: #3C5A99;
+}
+#google-plus:hover {
+    color: #DB4437;
+}
+#twitter:hover {
+    color: #00aace;
+}
